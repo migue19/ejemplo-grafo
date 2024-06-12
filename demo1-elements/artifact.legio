@@ -1,0 +1,8 @@
+dsl Legio
+
+Artifact(groupId = "mx.intersphere", version = "1.0.0") demo1-elements
+	WebImports
+		WebArtifact("io.intino.alexandria", "ui-framework-elements", "5.1.5") alexandria-ui-elements
+
+Repository("intino-maven")
+	Release("https://artifactory.intino.io/artifactory/releases")

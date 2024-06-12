@@ -1,0 +1,5 @@
+dsl proteo
+
+Concept User
+	var string nombre
+	var string apellido

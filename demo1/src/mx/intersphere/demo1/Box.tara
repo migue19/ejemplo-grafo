@@ -1,0 +1,9 @@
+dsl konos
+
+
+
+Service demo1Elements as UI(port = "", title = "", favicon = "")
+	Resource(path = "/") main as Page(template = homeTemplate) Main
+
+Template homeTemplate
+	Text (value ="Hola")
